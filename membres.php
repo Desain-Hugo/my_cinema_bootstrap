@@ -7,9 +7,14 @@
     <link href="style.css" rel="stylesheet">
     <title>My Cinéma</title>
 </head>
+
 <body>
     <h1>My Cinéma Bootstrap</h1>
-    
-    
+
+<?php
+include_once "db_personnes.php";
+searchMembre();
+?>
+
 </body>
-</html>
+<html>
