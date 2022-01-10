@@ -11,11 +11,17 @@
 <body>
     <h1>My Cinéma Bootstrap</h1>
 
-<?php
-include_once "db_personnes.php";
-searchFilms();
+    <p><a href="index.php">Retour à l'accueil</a></p>
 
-?>
+
+    <?php
+        include_once "db_personnes.php";
+        champMembre();
+        champFilm();
+        searchMembre();
+        searchFilm();
+        goPerso();
+    ?>
 
 </body>
 <html>

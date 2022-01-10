@@ -10,10 +10,15 @@
 
 <body>
     <h1>My Cinéma Bootstrap</h1>
+    <p><a href="index.php">Retour à l'accueil</a></p>
+
 
 <?php
-include_once "db_personnes.php";
-searchMembre();
+        include_once "db_personnes.php";
+        champMembre();
+        // champFilm();
+        searchMembre();
+        goPerso();
 ?>
 
 </body>

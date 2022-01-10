@@ -8,32 +8,20 @@
     <title>My Cinéma</title>
 </head>
 
-
-
 <body>
-
-
     <h1>My Cinéma Bootstrap</h1>
 
-    <table>
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Prénom</th>
-            <th>Nom</th>
-            <th>Email</th>
-            <th>Date de naissance</th>
-            <th>Ville</th>
-        </tr>
-    </thead>
-    <tbody>
-    <?php
+    <p><a href="index.php">Retour à l'accueil</a></p>
 
-include_once "db_personnes.php";
-goPerso();
-       
+
+    <?php
+        include_once "db_personnes.php";
+        champMembre();
+        champFilm();
+        searchMembre();
+        searchFilm();
+        goPerso();
     ?>
-    </tbody>
-</table>
+
 </body>
 </html>
